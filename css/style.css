@@ -224,7 +224,8 @@ footer .container{
   text-decoration: underline;
 }
 
-.col-right i{
+.col-right a{
+  color: white;
   font-size: 20px;
   padding-top: 8px;
   padding-right: 8px;
