@@ -5,6 +5,14 @@ padding: 0;
 box-sizing: border-box;
 }
 
+html{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
 /* UTILITY */
 
 .container{
@@ -17,6 +25,12 @@ box-sizing: border-box;
   display: flex;
 }
 
+/* DEBUG CLASS */
+.border-box *{
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* HEADER */
 
 header{
@@ -25,12 +39,32 @@ header{
   z-index: 999;
 
   width: 100%;
-  height: 80px;
+  height: 70px;
+
   background-color: #ff6900;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .nav-bar{
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+.nav-bar ul{
+  list-style: none;
+}
+
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.nav-bar a:hover{
+  text-decoration: underline;
+}
+
+.nav-bar .logo{
+  width: 150px;
 }
