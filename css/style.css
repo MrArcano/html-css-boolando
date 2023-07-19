@@ -17,12 +17,20 @@ img{
 
 .container{
   width: 80%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .flex-box{
   display: flex;
+}
+
+.fix-width{
+  width: 30%;
+}
+
+.text-right{
+  text-align: right;
 }
 
 /* DEBUG CLASS */
@@ -46,7 +54,7 @@ header{
 }
 
 .nav-bar{
-  justify-content: space-between;
+  justify-content: space-between; /* utilizzando il flex, il logo nn viene centrato, perchè i blocchi laterali hanno misure diverse */
   align-items: center;
   height: 100%;
 }
@@ -61,7 +69,12 @@ header{
   margin-right: 8px;
 }
 
-.nav-bar a:hover{
+.nav-bar .text-menu a{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-bar .text-menu a:hover{
   text-decoration: underline;
 }
 
