@@ -81,3 +81,20 @@ header{
 .nav-bar .logo{
   width: 150px;
 }
+
+/* MAIN */
+
+main{
+  margin-top: 70px;
+}
+
+
+.card-top{
+  position: relative;
+  max-width: 450px;
+}
+
+.hearth{
+  position: absolute;
+  top: 20px;
+}
