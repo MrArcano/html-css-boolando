@@ -30,7 +30,7 @@ img{
 }
 
 .fix-width{
-  width: 30%;
+  width: 25%;
 }
 
 .text-right{
@@ -44,7 +44,7 @@ img{
 }
 
 /* HEADER */
-
+/* ---------------------------------------------------------- */
 header{
   position: fixed;
   top: 0;
@@ -85,9 +85,10 @@ header{
 .nav-bar .logo{
   width: 150px;
 }
+/* ---------------------------------------------------------- */
 
 /* MAIN */
-
+/* ---------------------------------------------------------- */
 main{
   margin-top: 70px;
 }
@@ -95,17 +96,21 @@ main{
 .cards{
   padding-top: 60px;
   flex-wrap: wrap;
-  justify-content: space-between
+  justify-content: center;
 }
 
 .card{
   cursor: pointer;
+  width: calc((100% - 48px) / 3);
+  min-width: 250px;
+  margin-right: 16px;
 }
 
 .card-top{
   max-width: 450px;
   position: relative;
 }
+/* ---------------------------------------------------------- */
 
 /* CARD IMAGE */
 /* ---------------------------------------------------------- */
@@ -120,7 +125,7 @@ main{
 .card-image img:first-of-type:hover + img:last-of-type{
   display: inline-block;
 }
-
+/* ---------------------------------------------------------- */
 
 /* HEARTH */
 /* ---------------------------------------------------------- */
@@ -142,6 +147,7 @@ main{
 .hearth:hover{
   color: red;
 }
+/* ---------------------------------------------------------- */
 
 /* BADGE */
 /* ---------------------------------------------------------- */
@@ -164,6 +170,7 @@ main{
 .badge-green{
   background-color: green;
 }
+/* ---------------------------------------------------------- */
 
 /* CARD BOT */
 /* ---------------------------------------------------------- */
@@ -190,8 +197,10 @@ main{
 .old-price{
   text-decoration: line-through;
 }
+/* ---------------------------------------------------------- */
 
 /* FOOTER */
+/* ---------------------------------------------------------- */
 footer{
   background-color: #1a1a1a;
   color: white;
@@ -230,3 +239,4 @@ footer .container{
   padding-top: 8px;
   padding-right: 8px;
 }
+/* ---------------------------------------------------------- */
