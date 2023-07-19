@@ -190,3 +190,42 @@ main{
 .old-price{
   text-decoration: line-through;
 }
+
+/* FOOTER */
+footer{
+  background-color: #1a1a1a;
+  color: white;
+  height: 100px;
+}
+
+footer .container{
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+.col-left ul{
+  padding-top: 16px;
+  list-style: none;
+}
+
+.col-left ul li{
+  padding-right: 16px;
+  font-size: 14px;
+}
+
+.col-left a{
+  color: white;
+  text-decoration: none;
+}
+
+.col-left a:hover{
+  text-decoration: underline;
+}
+
+.col-right i{
+  font-size: 20px;
+  padding-top: 8px;
+  padding-right: 8px;
+}
