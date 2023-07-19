@@ -88,13 +88,53 @@ main{
   margin-top: 70px;
 }
 
+.cards{
+  padding-top: 60px;
+}
 
 .card-top{
   position: relative;
   max-width: 450px;
 }
 
+/* CARD IMAGE */
+/* ---------------------------------------------------------- */
+.card-image{
+  position: relative;
+}
+
+.card-image img{
+  position: absolute;
+}
+
+.card-image img:last-of-type{
+  display: none;
+}
+
+.card-image img:first-of-type:hover + img:last-of-type{
+  display: inline-block;
+}
+/* ---------------------------------------------------------- */
+
+/* HEARTH */
+/* ---------------------------------------------------------- */
 .hearth{
   position: absolute;
-  top: 20px;
+  top: 16px;
+  right: 0;
+
+  height: 50px;
+  width: 50px;
+
+  line-height: 50px;
+  text-align: center;
+
+  background-color: white;
+  font-size: 20px;
 }
+
+.hearth:hover{
+  color: red;
+}
+/* DISCOUNT */
+/* ---------------------------------------------------------- */
